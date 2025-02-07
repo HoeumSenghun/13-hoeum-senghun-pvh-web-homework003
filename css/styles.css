@@ -11,12 +11,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: transparent;
+    background-color: #ffffff7a;
     color: white;
 }
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    padding-left: 50px;
     color: black;
 }
 .nav-links {
@@ -28,8 +29,29 @@ body {
 .nav-links li {
     display: inline;
 }
-.nav-links span {
-    color: black;
+.pricing {
+    position: relative;
+    padding: 1rem 1.5rem;
+}
+.pricing::before {
+    content: " ";
+    position: absolute;
+    background-color: #333;
+    left: 0;
+    width: 2px;
+    height: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pricing::after {
+    content: " ";
+    position: absolute;
+    background-color: #333;
+    right: 0;
+    width: 2px;
+    height: 40%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .nav-links a {
     color: white;
@@ -46,6 +68,9 @@ body {
 .nav-links a:active {
     color: #ce0909;
 }
+.contact {
+    padding-right: 50px;
+}
 .contact a {
     font-size: 25px;
     text-decoration: none;
@@ -58,10 +83,9 @@ body {
 }
 .contact a:hover {
     background-color: #07d3d3;
-    color: #fff;
+    color: white;
 }
 .contact a:focus {
-    color: black;
     outline: none;
     border: 2px solid #047070;
 
