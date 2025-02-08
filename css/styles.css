@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 * {
     padding: 0;
     margin: 0;
@@ -5,17 +8,22 @@
 }
 body {
     font-family: Arial, sans-serif;
+    padding-top: 70px;
 }
 
 /* header */
-
 .navbar {
     display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
     background-color: #ffffff7a;
+    backdrop-filter: blur(10px);
     color: white;
+    z-index: 1000;
 }
 .logo {
     font-size: 1.5rem;
@@ -91,7 +99,6 @@ body {
 .contact a:focus {
     outline: none;
     border: 2px solid #047070;
-
 }
 
 
@@ -385,4 +392,251 @@ body {
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
     top: 0px;
     left: 90px;
+}
+.container-2 {
+    display: flex;
+    margin: auto;
+    height: 60vh;
+    width: 90%;
+}
+.part-text{
+    position: relative;
+    padding: 50px;
+    padding-left: 90px;
+    width: 50%;
+    left: 60px;
+}
+.text-head{
+    width: 700px;
+    font-size: 33px;
+    margin: 50px;
+}
+.text-paraf{
+    display: flex;
+    width: 600px;
+    font-size: 24px;
+    margin: 50px;
+    line-height: 1.7;
+}
+.button-exp button{
+    width: 145px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #07d3d3;
+    font-size: 15px;
+    border: 1.8px solid #07d3d3;
+    border-radius: 20px;
+    padding: 8px 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.button-exp button:hover{
+    background-color: #0cdfdf;
+    border: 1.8px solid #07d3d3;
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+.button-exp button:focus {
+    outline: none;
+    border: 1.8px solid #ac7002;
+    background-color: #cc8604;
+    color: #fff;
+
+}
+
+
+
+
+
+.part-img{
+    display: flex;
+    position: relative;
+    width: 50%;
+    padding: 30px;
+    gap: 15px;
+}
+.image-one{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-image: url('../images/beach view.jpg');
+    background-size: cover;
+    border: 20px solid white;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    top: 50px;
+    left: 50px;
+}
+.image-one:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+.image-two{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-image: url('../images/beach view.jpg');
+    background-size: cover;
+    border: 20px solid white;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    top: 160px;
+    left: 270px;
+}
+.image-two:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+.image-three{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-image: url('../images/beach view.jpg');
+    background-size: cover;
+    border: 20px solid white;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    top: 50px;
+    left: 490px;
+}
+.image-three:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+
+
+.container-3{
+    display: flex;
+    margin: auto;
+    height: 20vh;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-3 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section-3 p{
+    font-size: 20px;
+}
+
+
+
+.container-4 {
+    display: flex;
+    padding: 50px;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.travel-content {
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 180px;
+}
+
+.travel-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.number {
+    background-color: #148f8f;
+    width: 45px;
+    height: 40px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 17px;
+}
+
+.travel-item h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+}
+
+.travel-item p {
+    font-size: 17px;
+    color: #000000;
+    line-height: 1.5;
+    width: 460px;
+}
+.travel-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.travel-image {
+    width: 45%;
+    height: 90%;
+    background-image: url('../images/beach view.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.user-icon {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: #333;
+}
+.user-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #07d3d3;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    z-index: 1000;
+  }
+.back-to-top i {
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+}
+footer{
+    font-family: Arial, sans-serif;
+    background-color: #E4E4E4;
+    padding: 20px;
+    text-align: center;
 }
