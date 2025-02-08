@@ -224,7 +224,7 @@ body {
     height: 40px;
     background-size: cover;
     border-radius: 20px;
-    background-image: url('../images/arun lita.jpg');
+    background-image: url('../images/swagy-cat.jpg');
 }
 .g-1-name{
     display: flex;
@@ -251,7 +251,7 @@ body {
     background-color: rgb(108, 108, 122);
     top: 270px;
     left: 80px;
-    background-image: url('../images/sun set view.jpg');
+    background-image: url('../images/sea1.jpg');
     background-size: cover;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
 }
@@ -307,7 +307,7 @@ body {
     background-color: rgb(108, 108, 122);
     top: 30px;
     left: 40px;
-    background-image: url('../images/beach view.jpg');
+    background-image: url('../images/sea2.jpg');
     background-size: cover;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
 }
@@ -328,7 +328,7 @@ body {
     height: 100%;
     background-color: #a59b9b;
     border-radius: 10px;
-    background-image: url('../images/beach view.jpg');
+    background-image: url('../images/coffee1.jpg');
     background-size: cover;
     border: 2px solid white;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
@@ -362,7 +362,7 @@ body {
     width: 70px;
     height: 90px;
     border-radius: 10px;
-    background-image: url('../images/sun set view.jpg');
+    background-image: url('../images/coffee2.jpg');
     background-size: cover;
     border: 2px solid white;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
@@ -374,7 +374,7 @@ body {
     width: 70px;
     height: 90px;
     border-radius: 10px;
-    background-image: url('../images/beach view.jpg');
+    background-image: url('../images/coffee3.jpg');
     background-size: cover;
     border: 2px solid white;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
@@ -386,7 +386,7 @@ body {
     width: 70px;
     height: 90px;
     border-radius: 10px;
-    background-image: url('../images/sun set view.jpg');
+    background-image: url('../images/coffee4.jpg');
     background-size: cover;
     border: 2px solid white;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
@@ -606,7 +606,7 @@ body {
 .travel-image {
     width: 45%;
     height: 90%;
-    background-image: url('../images/beach view.jpg');
+    background-image: url('../images/travel.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
