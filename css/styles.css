@@ -431,12 +431,12 @@ body {
     margin-left: 50px;
     cursor: pointer;
     background-color: #fff;
+    transition: all 1s ease-in-out;
 }
 .button-exp button:hover{
     background-color: #0cdfdf;
     border: 1.8px solid #07d3d3;
     color: #fff;
-    transition: all 1s ease-in-out;
 }
 .button-exp button:focus {
     outline: none;
@@ -462,16 +462,21 @@ body {
     position: absolute;
     width: 200px;
     height: 300px;
-    background-image: url('../images/beach view.jpg');
     background-size: cover;
     border: 20px solid white;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
+    border-radius: 19px;
     top: 50px;
     left: 50px;
+    transition: transform 0.3s ;
+}
+.image-one img{
+    position: absolute;
+    width: 163px;
+    height: 257px;
+    border-radius: 15px;
 }
 .image-one:hover{
-    transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
 }
 .image-two{
@@ -479,16 +484,21 @@ body {
     position: absolute;
     width: 200px;
     height: 300px;
-    background-image: url('../images/beach view.jpg');
     background-size: cover;
     border: 20px solid white;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
+    border-radius: 19px;
     top: 160px;
     left: 270px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-two img{
+    position: absolute;
+    width: 163px;
+    height: 257px;
+    border-radius: 15px;
 }
 .image-two:hover{
-    transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
 }
 .image-three{
@@ -496,16 +506,21 @@ body {
     position: absolute;
     width: 200px;
     height: 300px;
-    background-image: url('../images/beach view.jpg');
     background-size: cover;
     border: 20px solid white;
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
+    border-radius: 19px;
     top: 50px;
     left: 490px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-three img{
+    position: absolute;
+    width: 163px;
+    height: 257px;
+    border-radius: 15px;
 }
 .image-three:hover{
-    transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
 }
 
