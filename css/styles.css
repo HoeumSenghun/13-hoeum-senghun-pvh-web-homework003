@@ -6,6 +6,9 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+/* header */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -89,4 +92,297 @@ body {
     outline: none;
     border: 2px solid #047070;
 
+}
+
+
+/* body */
+
+.container {
+    display: flex;
+    margin: auto;
+    height: 80vh;
+    width: 90%;
+}
+.hero-sidebar {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+}
+.sidebar {
+    display: flex;
+    flex-direction: row-reverse;
+    writing-mode:sideways-lr;
+    gap: 30px;
+}
+.sidebar p {
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+}
+#latest{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #07d3d3;   
+}
+
+.content {
+    display: flex;
+    width: 95%;
+    background-color: #E4E4E4;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.image-content {
+    display: flex;
+    width: 50%;
+}
+.text-content {
+    position: relative;
+    padding: 60px;
+    width: 50%;
+}
+
+
+
+.title {
+    border-radius: 10%;
+    width: 600px;
+    font-size: 40px;
+    margin: 40px;
+}
+.title h1::first-letter{
+    color: #07d3d3;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.description{
+    width: 400px;
+    font-size: 30px;
+    margin: 50px;
+}
+.btn-explore{
+    width: 120px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #07d3d3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+    cursor: pointer;
+}
+.btn {
+    position: absolute;
+    display: flex;
+    left: 250px;
+    top: 510px;
+
+}
+.btn-play{
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    color: #07d3d3;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+.btn-play:hover{
+    border: 1px solid;
+}
+.image-g1{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.image-g1-1{
+    position: absolute;
+    width: 80%;
+    height: 28%;
+    border-radius: 30px;
+    background-color: #fff;
+    top: 50px;
+    left: 80px;
+}
+.img{
+    margin: 20px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url('../images/arun lita.jpg');
+}
+.g-1-name{
+    display: flex;
+    gap: 150px;
+    margin: 20px;
+}
+.g-1-name p{
+    font-weight: 600;
+}
+.g-1-detail{
+    gap: 80px;
+    margin: 20px;
+    margin-top: 25px;
+    display: flex;
+}
+.g-1-detail i{
+    color: #ffd000;
+}
+.image-g1-2{
+    position: absolute;
+    width: 60%;
+    height: 55%;
+    border-radius: 30px;
+    background-color: rgb(108, 108, 122);
+    top: 270px;
+    left: 80px;
+    background-image: url('../images/sun set view.jpg');
+    background-size: cover;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+}
+.inner-g1-2{
+    position: absolute;
+    display: flex;
+    background-color: #ffffffb7;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    top: 250px;
+    left: 22px;
+}
+.inner-g1-2-detail{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inner-g1-2-detail-1 {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    display: flex;
+    gap: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inner-g1-2-detail-2{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    gap: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inner-g1-2-detail-2 i{
+    color: #ffd000;
+}
+.image-g2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.image-g2-1{
+    position: absolute;
+    width: 60%;
+    height: 55%;
+    border-radius: 30px;
+    background-color: rgb(108, 108, 122);
+    top: 30px;
+    left: 40px;
+    background-image: url('../images/beach view.jpg');
+    background-size: cover;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+}
+.image-g2-2{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 28%;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 20px;
+    top: 440px;
+    left: 40px;
+}
+.image-right{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    background-color: #a59b9b;
+    border-radius: 10px;
+    background-image: url('../images/beach view.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+}
+.image-left{
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 100%;
+    border-radius: 10px;
+}
+.image-text{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.image-triple{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 55%;
+    top: 63px;
+    left: 10px;
+}
+.img-1{
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    border-radius: 10px;
+    background-image: url('../images/sun set view.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+    top: 0px;
+    left: 5px;
+}
+.img-2{
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    border-radius: 10px;
+    background-image: url('../images/beach view.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+    top: 0px;
+    left: 50px;
+}
+.img-3{
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    border-radius: 10px;
+    background-image: url('../images/sun set view.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.4);
+    top: 0px;
+    left: 90px;
 }
